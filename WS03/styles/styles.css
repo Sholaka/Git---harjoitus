@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(201, 206, 208);
+  }
+
+  h1 {
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma;
+  }
+
+  h2 {
+    color: rgb(38, 63, 38);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p {
+    color: rgb(29, 31, 29);
+    font-size: 24px;
+  }
