@@ -1,0 +1,57 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    color: rgb(235, 233, 233);
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/24/18/05/background-3104413_1280.jpg");
+  }
+  h1 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: rgb(206, 206, 206);
+    border-style: solid;
+    border-color: rgba(150, 227, 99, 0.632);
+    border-radius: 6px;
+   
+  }
+  
+  div {
+    border-width: 1px;
+    border-style: dotted;
+    
+      
+    
+  }
+  
+  
+  
+  ol {
+    list-style: lower-alpha;
+  }
+  
+  ul {
+    list-style: square;
+  }
+  
+  #kuva1 {
+    padding-left: 50px;
+    margin: 5px;
+  }
+  
+  #kuva2 {
+    padding-left: 15px;
+  }
+
+  a {
+    color: antiquewhite;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  
