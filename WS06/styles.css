@@ -22,32 +22,30 @@ h2 {
 }
   
   
-  nav {
+  .vertical {
     float: left;
     width: 20%;
     height: 300px; 
     background: #ccc;
-    padding: 20px;
-   
-     
+    padding:10px;  
   }
 
   
 
-  nav ul {
+  .vertical ul {
     list-style-type: none;
     padding: 0;
     
   }
   
-  nav a {
+  .vertical a {
     text-decoration: none;
-    line-height: 60px;
+    line-height: 40px;
     color: #17285d;
     
 
   }
-  nav a:hover {
+  .vertical a:hover {
     color: red;
   }
 
@@ -83,26 +81,21 @@ h2 {
     color: white;
   }
 
- 
+  .topnav ul {
 
-.topnav  {
-    overflow: hidden;
-    background-color: #17285d;
-   
-  }
-  
- 
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-     padding: 15px;
-    margin: 10px;
-    text-decoration: none;
-    font-size: 40;
-   
-  }
+    list-style: none;
+    
+    }
 
+.vertical-nav ul li a {
+
+text-decoration: none;
+        display: block;
+        background:#17285d
+        
+        
+
+        }
 
   
   .topnav a:hover {
@@ -110,20 +103,4 @@ h2 {
     color: rgb(255, 251, 251);
   }
 
-  
-
-  
-   
- 
-  
-  
-  
-
-
-
-
-  
-  
-  
- 
   
