@@ -115,5 +115,10 @@ h2 {
     width: 100%;
   }
   
+  .topnav ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
 
   
