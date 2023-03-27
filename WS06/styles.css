@@ -27,7 +27,7 @@ h2 {
     width: 20%;
     height: 300px; 
     background: #ccc;
-    padding:10px;  
+    padding:30px;  
   }
 
   
@@ -87,7 +87,7 @@ h2 {
     text-align: center;
   }
   
-  /* Style the topnav links */
+  
   .topnav a {
     float: none;
     display: block;
@@ -97,7 +97,7 @@ h2 {
     display: inline;
   }
   
-  /* Change color on hover */
+  
   .topnav a:hover {
     background-color: red;
     color: b#17285d;
