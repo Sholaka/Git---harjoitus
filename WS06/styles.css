@@ -81,27 +81,28 @@ h2 {
     color: white;
   }
 
-  .topnav ul {
-
-    list-style: none;
-    
-    }
-
-.vertical-nav ul li a {
-
-text-decoration: none;
-        display: block;
-        background:#17285d
-        
-        
-
-        }
-
-  
-  .topnav a:hover {
-    background-color: #b51414;
-    color: rgb(255, 251, 251);
+  .topnav {
+    overflow: hidden;
+    background-color: #17285d;
+    text-align: center;
   }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    padding: 50px 16px;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: red;
+    color: b#17285d;
+  }
+
 
   @media (max-width: 600px) {
     nav, article {
