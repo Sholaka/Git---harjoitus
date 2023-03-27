@@ -1,0 +1,129 @@
+
+  
+  body {
+    font-family: Arial;
+    
+
+  }
+  
+  header {
+    background-color: #cdcdcd;
+    padding: 25px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(31, 31, 31);
+    width: 100%;
+    background-image:url("https://cdn.pixabay.com/photo/2015/11/06/13/29/union-jack-1027893_1280.jpg");
+    }
+
+h2 {
+    background-color: #fcfcfc;
+    background-color: rgba(255,255,255,0.5);
+}
+  
+  
+  nav {
+    float: left;
+    width: 20%;
+    height: 300px; 
+    background: #ccc;
+    padding: 20px;
+   
+     
+  }
+
+  
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    line-height: 60px;
+    color: #17285d;
+    
+
+  }
+  nav a:hover {
+    color: red;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin:10x;
+    height: 300px; 
+    text-align: center;
+    
+  }
+
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  footer {
+    background-color: #17285d;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+ 
+
+.topnav  {
+    overflow: hidden;
+    background-color: #17285d;
+   
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+     padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 40;
+   
+  }
+
+
+  
+  .topnav a:hover {
+    background-color: #b51414;
+    color: rgb(255, 251, 251);
+  }
+
+  
+
+  
+   
+ 
+  
+  
+  
+
+
+
+
+  
+  
+  
+ 
+  
