@@ -110,4 +110,9 @@ text-decoration: none;
     }
   }
 
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+
   
