@@ -97,6 +97,7 @@
     text-align: center;
     
     
+    
   }
   
   
@@ -108,9 +109,10 @@
     display: inline;
     color: #ffffff;
   
+  
   }
-  .topnav a:link {
-    color: #ffffff;
+  .topnav li{
+    display: inline;
   }
   
   .topnav a:hover {
