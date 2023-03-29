@@ -116,20 +116,27 @@
   .topnav a:hover {
     background-color: red;
     
+    
   }
+
+  .topnav a:link {
+    color: #fafafa;
+    
+  }
+
+
   .topnav a:active {
-    color: rgb(212, 238, 152);
+    color: rgb(164, 164, 164);
     background-color: red;
     
   }
 
   .topnav a:visited {
-   color: #3eced6;
+   color: #fafafa;
    background-color: red;
     
   }
  
-  
   .topnav ul {
     list-style-type: none;
     padding: 0;
