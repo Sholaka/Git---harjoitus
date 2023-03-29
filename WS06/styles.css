@@ -71,7 +71,6 @@
   }
 
   
-
   .row:after {
     content: "";
     display: table;
@@ -83,7 +82,7 @@
   footer {
     background-color: #17285d;
     justify-content: center;
-    color: white;
+    color: #6471ac;
     margin: 0px;
     padding: 5px;
     display: flex; 
@@ -95,7 +94,6 @@
     overflow: hidden;
     background-color: #17285d;
     text-align: center;
-    
     
     
   }
