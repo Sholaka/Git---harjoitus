@@ -124,13 +124,9 @@
   .topnav a:visited {
    color: #ffffff;
    background-color: red;
-
-
     
   }
  
-  
-
 
   @media (max-width: 600px) {
     nav, article {
@@ -149,7 +145,11 @@
     
   }
 
-  
+
+ .vertical img {
+  padding:0px;
+  margin-top: 60px;
+ }
    
 
 
