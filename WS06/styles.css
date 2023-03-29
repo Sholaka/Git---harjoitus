@@ -118,13 +118,13 @@
     
   }
   .topnav a:active {
-    color: rgb(152, 232, 238);
+    color: rgb(212, 238, 152);
     background-color: red;
     
   }
 
   .topnav a:visited {
-   color: #ffffff;
+   color: #3eced6;
    background-color: red;
     
   }
@@ -142,6 +142,10 @@
   margin-top: 60px;
  }
    
+ .cityname {
+  margin-left: 30px;
+  padding: 20px;
+ }
 
 
   
