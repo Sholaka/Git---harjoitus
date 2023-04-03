@@ -95,9 +95,7 @@
     background-color: #17285d;
     text-align: center;
     
-    
   }
-  
   
   .topnav a {
     float: none;
@@ -105,37 +103,35 @@
     padding: 50px 16px;
     text-decoration: none;
     display: inline;
-    color: #ffffff;
-  
-  
+    
   }
   .topnav li{
     display: inline;
   }
   
-  .topnav a:hover {
-    background-color: red;
-    
-    
-  }
 
   .topnav a:link {
-    color: #fafafa;
+    color: #c6c6c6;
     
   }
 
+  .topnav a:visited {
+    color: #fffcfc;
+    background-color: red;
+     
+   }
 
+   .topnav a:hover {
+    background-color: red;
+   }
+
+  
   .topnav a:active {
     color: rgb(164, 164, 164);
     background-color: red;
     
   }
 
-  .topnav a:visited {
-   color: #fafafa;
-   background-color: red;
-    
-  }
  
   .topnav ul {
     list-style-type: none;
@@ -148,11 +144,28 @@
   padding:0px;
   margin-top: 60px;
  }
-   
- .cityname {
-  margin-left: 30px;
-  padding: 20px;
- }
 
-
+ .topnav #nav2 h1 {
+  color: lightgray; 
+  font-size: 20px;
   
+}
+
+.topnav #nav2 body {
+  background-color: rgb(0, 0, 0);
+
+}
+
+.topnav #nav2 li {
+  color: lightgray;
+}
+
+.topnav #nav2 div {border-style: dotted;color: lightgray; 
+height: 100px;
+width: 100px;
+}
+
+
+ 
+   
+ 
