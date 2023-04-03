@@ -145,6 +145,27 @@
   margin-top: 60px;
  }
 
+ #first-backround {
+  background-color: black;
+  color: lightgray;
+  
+
+ }
+
+ #dotted {border-style: dotted;color: lightgray; 
+  height: 100px;
+  width: 100px;
+  }
+
+  #second-backround{
+  
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/24/18/05/background-3104413_1280.jpg");
+  }
+
+    
+
+
+
 
 
 
