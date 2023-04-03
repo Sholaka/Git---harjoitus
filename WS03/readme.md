@@ -1,1 +1,1 @@
-Tämä on verkkosivujen kehittämisen WS02 Työpaja
+Tämä on verkkosivujen kehittämisen WS03 Työpaja

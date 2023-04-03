@@ -23,7 +23,7 @@
 }
   
   
-  .vertical {
+#vertical {
     float: left;
     width: 20%;
     height: 300px; 
@@ -34,20 +34,20 @@
   }
 
 
-  .vertical ul {
+  #vertical ul {
     list-style-type: none;
     padding: 0;
     
   }
   
-  .vertical a {
+  #vertical a {
     text-decoration: none;
     line-height: 40px;
     color: #17285d;
     
   
   }
-  .vertical a:hover {
+  #vertical a:hover {
     color: red;
   }
  
@@ -58,7 +58,7 @@
   }
   
   
-  .column {
+  article {
     float: left;
     width: 40%;
     padding: 5px;
@@ -90,14 +90,14 @@
   }
   
 
-  .topnav {
+  #topnav {
     overflow: hidden;
     background-color: #17285d;
     text-align: center;
     
   }
   
-  .topnav a {
+  #topnav a {
     float: none;
     display: block;
     padding: 50px 16px;
@@ -105,64 +105,63 @@
     display: inline;
     
   }
-  .topnav li{
+  #topnav li{
     display: inline;
   }
   
 
-  .topnav a:link {
+  #topnav a:link {
     color: #c6c6c6;
     
   }
 
-  .topnav a:visited {
+  #topnav a:visited {
     color: #fffcfc;
     background-color: red;
      
    }
 
-   .topnav a:hover {
+   #topnav a:hover {
     background-color: red;
    }
 
   
-  .topnav a:active {
+   #topnav a:active {
     color: rgb(164, 164, 164);
     background-color: red;
     
   }
 
  
-  .topnav ul {
+  #topnav ul {
     list-style-type: none;
     padding: 0;
     
   }
 
 
- .vertical img {
+  #vertical img {
   padding:0px;
   margin-top: 60px;
  }
 
- .topnav #nav2 h1 {
-  color: lightgray; 
-  font-size: 20px;
-  
+ div {
+  border-width: 2px;
+  border-style: dotted;
 }
 
-.topnav #nav2 body {
-  background-color: rgb(0, 0, 0);
-
+.Teksti{
+  width: 50px;
+  height: 50px;
 }
 
-.topnav #nav2 li {
-  color: lightgray;
-}
-
-.topnav #nav2 div {border-style: dotted;color: lightgray; 
-height: 100px;
-width: 100px;
+p {
+  font-size: 18px;
+  color: rgb(206, 206, 206);
+  border-style: solid;
+  border-color: rgba(150, 227, 99, 0.632);
+  border-radius: 6px;
+ 
 }
 
 

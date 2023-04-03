@@ -19,15 +19,9 @@ body {
    
   }
   
-  div {
-    border-width: 1px;
-    border-style: dotted;
-    
  
-  }
-  
-  
-  
+      
+ 
   ol {
     list-style: lower-alpha;
   }
