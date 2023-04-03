@@ -5,24 +5,17 @@
     
   }
   
-  header {
-    background-color: #cdcdcd;
-    padding: 25px;
+  #otsikko {
+    padding: 50px;
     text-align: center;
     font-size: 35px;
-    color: rgb(31, 31, 31);
+    color:#17285d;
     width: 100%;
-    background-image:url("https://cdn.pixabay.com/photo/2015/11/06/13/29/union-jack-1027893_1280.jpg");
+    
+    
     }
-
-#otsikko {
    
-    background-color: rgba(255,255,255,0.5);
-    color: #17285d;
 
-}
-  
-  
 #vertical {
     float: left;
     width: 20%;
@@ -79,10 +72,10 @@
 
 
 
-  footer {
-    background-color: #17285d;
+  #footer {
+    background-color: #384772;
     justify-content: center;
-    color: #6471ac;
+    color: #99a1c7;
     margin: 0px;
     padding: 5px;
     display: flex; 
@@ -92,7 +85,7 @@
 
   #topnav {
     overflow: hidden;
-    background-color: #17285d;
+    background-color: #384772;
     text-align: center;
     
   }
@@ -158,9 +151,65 @@
   }
 
   #second-backround{
-  
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(233, 235, 233);
     background-image: url("https://cdn.pixabay.com/photo/2018/01/24/18/05/background-3104413_1280.jpg");
   }
+
+  
+
+  footer {
+    text-align: center;
+  }
+
+  #border {
+    font-size: 18px;
+    color: rgb(206, 206, 206);
+    border-style: solid;
+    border-color: rgba(150, 227, 99, 0.632);
+    border-radius: 3px;
+    padding: 35px;
+   
+  }
+  
+  #second-backround a{
+    color: bisque;
+  }
+
+  
+  #first-backround a{
+    color: bisque;
+  }
+
+  #header2 {
+    color: #eea60c;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+   
+
+  }
+
+  div img{
+   opacity: 0,3;
+  
+  }
+
 
     
 
