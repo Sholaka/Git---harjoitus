@@ -193,23 +193,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 55px;
+    opacity: 0,5;
   }
   .container {
     position: relative;
     text-align: center;
-    color: #f8f8f8;
+    color: #384772;
     font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
+    -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
    
 
   }
 
-  div img{
-   opacity: 0,3;
-  
-  }
-
+ 
 
     
 
