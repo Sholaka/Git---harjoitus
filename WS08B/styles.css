@@ -20,37 +20,53 @@
     position: relative;
     padding-bottom: 58px;
     min-height: 100vh;
+    background-color: #e5e5e5;
   }
   footer {
     text-align: center;
     background-color: #282724;
     color: #ffffff;
-    position: fixed;
-   
-    bottom: 0;
     width: 100%;
     
-  }
 
-  h1{
-    font-weight: 700;
     
   }
 
-  
-h3{
-    margin-left: 80px;
-}
-  h6{
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1,9;
-    margin-left: 80px;
 
+  .responsive {
+    max-width: 80%;
+    height: auto;
   }
+
+  #road{
+    
+    margin-left: 50px;
+    margin-bottom: 50px;
+   
+  }
+  #road-text{
+    margin-top: 50px;
+  }
+ 
   #mina{
     margin-left: 50px;
   }
+
+  .navbar a{
+    margin-left: 45px;
+  }
+  
+  .navbar a:hover{
+    border-bottom: 2px solid #282724;
+    
+  }
+  #contacts{
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
+ 
 
 
 
