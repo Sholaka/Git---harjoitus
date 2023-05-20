@@ -1,2 +1,152 @@
+.bg-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0,3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header{
+    margin-top: 150px;
+    margin-left:  100px;
+}
 
   
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+    background-color: #e5e5e5;
+  }
+  footer {
+    text-align: center;
+    background-color: #282724;
+    color: #ffffff;
+    width: 100%;
+      
+  }
+
+
+  .responsive {
+    max-width: 80%;
+    height: auto;
+  }
+
+  #road{
+    
+    margin-left: 50px;
+    margin-bottom: 50px;
+   
+  }
+  #road-text{
+    margin-top: 50px;
+  }
+ 
+  #mina{
+    margin-left: 50px;
+  }
+
+  .navbar a{
+    margin-left: 50px;
+  }
+  
+  .navbar a:hover{
+    border-bottom: 4px solid #fabd07;
+    
+  }
+
+  
+ .section-content{
+    text-align: center; 
+}
+  
+#envelope{
+   max-width: 80%;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #a8a9a9;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.custom-form .contact-lable {
+     line-height: 20px;
+    font-weight: 500;
+    color: #828f99;
+    margin: 0px;
+    padding: 0px 9px 0px 10px
+    
+}
+label {
+    display: inline-block;
+    
+}
+
+.custom-form .form-control {
+    height: 42px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-color: #e6eef6;
+    color: #828f99;
+    
+}
+textarea.form-control {
+    height: auto !important;
+}
+.home-img .animation-2 {
+    border-radius: 50%;
+    background-color: #f9b30f;
+    -webkit-box-shadow: 0px 20px 30px 0px rgb(48 61 114 / 40%);
+    box-shadow: 0px 20px 30px 0px rgb(48 61 114 / 40%);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 830px;
+    right: 750px;
+    -webkit-animation: spin 2s infinite alternate;
+    animation: spin 2s infinite alternate;
+}
+
+/*** Spin 2 ***/
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+  }
+}
+
+  
+  
+  
+ 
+
+
+
+
