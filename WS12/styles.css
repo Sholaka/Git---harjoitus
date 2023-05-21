@@ -21,34 +21,18 @@
     padding-bottom: 58px;
     min-height: 100vh;
     background-color: #e5e5e5;
-  }
-  footer {
-    text-align: center;
-    background-color: #282724;
-    color: #ffffff;
-    width: 100%;
-      
-  }
-
-
-  .responsive {
-    max-width: 80%;
-    height: auto;
-  }
-
-  #road{
-    
-    margin-left: 50px;
-    margin-bottom: 50px;
+}
    
-  }
-  #road-text{
-    margin-top: 50px;
-  }
+
+#photography {
+    text-align: center;
+}
+
  
-  #mina{
-    margin-left: 50px;
-  }
+  footer {
+   bottom: 0;
+}
+
 
   .navbar a{
     margin-left: 50px;
@@ -114,7 +98,7 @@ textarea.form-control {
     position: absolute;
     width: 50px;
     height: 50px;
-    bottom: 830px;
+    bottom: 730px;
     right: 750px;
     -webkit-animation: spin 2s infinite alternate;
     animation: spin 2s infinite alternate;
@@ -140,6 +124,10 @@ textarea.form-control {
     -webkit-transform: translateY(40px);
             transform: translateY(40px);
   }
+}
+
+.carouselExampleInterval {
+    width: 50%;
 }
 
   
