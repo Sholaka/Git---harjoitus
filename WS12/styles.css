@@ -11,7 +11,7 @@
 
 .header{
     margin-top: 150px;
-    margin-left:  100px;
+    margin-left: 100px;
 }
 
   
@@ -21,8 +21,8 @@
     padding-bottom: 58px;
     min-height: 100vh;
     background-color: #e5e5e5;
+       
 }
-   
 
 #photography {
     text-align: center;
@@ -126,15 +126,23 @@ textarea.form-control {
   }
 }
 
-.carouselExampleInterval {
-    width: 50%;
+.carousel-item {
+    height: 60% !important;
+    width: 70% !important;
+    margin-left: 15%;
+    
 }
 
-  
-  
-  
- 
+.carousel-control-prev{
+    padding-bottom: 70px;
+    margin-left: 110px;
+}
+.carousel-control-next{
+    padding-bottom: 70px;
+    margin-right: 110px;
+}
 
-
-
-
+.responsive {
+    width: 100%;
+    height: auto;
+  }
